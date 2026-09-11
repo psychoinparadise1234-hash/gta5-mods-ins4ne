@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ins4nemodder - GTA 5 Mod Creator</title>
+    <title>ins4nemodder - GTA 5 Mods</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -12,219 +12,156 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <i class="fas fa-gamepad"></i> ins4nemodder
+                <span class="pixel-text">ins4nemodder</span>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#mods" class="nav-link">Mods</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#tutorial" class="nav-link">Add Mods</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="stars"></div>
+        <div class="pixel-bg"></div>
         <div class="hero-content">
-            <h1 class="hero-title">ins4nemodder</h1>
-            <p class="hero-subtitle">Insane GTA 5 Mods. Unlimited Possibilities.</p>
-            <a href="#mods" class="cta-button">Explore Mods</a>
+            <h1 class="pixel-title">ins4nemodder</h1>
+            <p class="pixel-subtitle">Physics Tasks & Vehicle Edits</p>
+            <div class="pixel-divider"></div>
+            <p class="tagline">Clean. Minimalist. Modding.</p>
+            <a href="#mods" class="pixel-button">View Mods</a>
         </div>
-        <div class="floating-particles"></div>
     </section>
 
     <!-- Mods Section -->
     <section id="mods" class="mods">
         <div class="container">
             <h2 class="section-title">Featured Mods</h2>
+            <p class="section-subtitle">Physics Tasks & Vehicle Modifications</p>
             
             <div class="mods-grid">
                 <!-- Mod Card 1 -->
                 <div class="mod-card">
-                    <div class="mod-card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                        <i class="fas fa-car"></i>
-                    </div>
-                    <div class="mod-card-content">
-                        <h3>Vehicle Pack Ultra</h3>
-                        <p>50+ high-quality custom vehicles with realistic physics and custom engines sounds.</p>
-                        <div class="mod-stats">
-                            <span><i class="fas fa-download"></i> 12.5K</span>
-                            <span><i class="fas fa-star"></i> 4.9/5</span>
-                        </div>
-                        <button class="download-btn">Download</button>
-                    </div>
+                    <div class="mod-icon">🚗</div>
+                    <h3>Physics Task Pack</h3>
+                    <p>Enhanced physics.ymt configurations for realistic vehicle behavior</p>
+                    <div class="mod-type">Physics Tasks</div>
                 </div>
 
                 <!-- Mod Card 2 -->
                 <div class="mod-card">
-                    <div class="mod-card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-                        <i class="fas fa-gun"></i>
-                    </div>
-                    <div class="mod-card-content">
-                        <h3>Weapon Arsenal Pro</h3>
-                        <p>Futuristic weapons pack with custom animations and VFX effects.</p>
-                        <div class="mod-stats">
-                            <span><i class="fas fa-download"></i> 8.3K</span>
-                            <span><i class="fas fa-star"></i> 4.8/5</span>
-                        </div>
-                        <button class="download-btn">Download</button>
-                    </div>
+                    <div class="mod-icon">⚙️</div>
+                    <h3>Vehicle Handling</h3>
+                    <p>Custom vehicle edits with improved handling and acceleration</p>
+                    <div class="mod-type">Vehicle Edit</div>
                 </div>
 
                 <!-- Mod Card 3 -->
                 <div class="mod-card">
-                    <div class="mod-card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                        <i class="fas fa-city"></i>
-                    </div>
-                    <div class="mod-card-content">
-                        <h3>Enhanced City Graphics</h3>
-                        <p>Stunning visual overhaul with 4K textures and ray tracing support.</p>
-                        <div class="mod-stats">
-                            <span><i class="fas fa-download"></i> 15.2K</span>
-                            <span><i class="fas fa-star"></i> 4.9/5</span>
-                        </div>
-                        <button class="download-btn">Download</button>
-                    </div>
+                    <div class="mod-icon">🛞</div>
+                    <h3>Drift Physics</h3>
+                    <p>Modified physics.ymt for enhanced drifting mechanics</p>
+                    <div class="mod-type">Physics Tasks</div>
                 </div>
 
                 <!-- Mod Card 4 -->
                 <div class="mod-card">
-                    <div class="mod-card-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-                        <i class="fas fa-person-running"></i>
-                    </div>
-                    <div class="mod-card-content">
-                        <h3>Animation Bundle</h3>
-                        <p>200+ smooth custom animations for characters and interactions.</p>
-                        <div class="mod-stats">
-                            <span><i class="fas fa-download"></i> 7.8K</span>
-                            <span><i class="fas fa-star"></i> 4.7/5</span>
-                        </div>
-                        <button class="download-btn">Download</button>
-                    </div>
-                </div>
-
-                <!-- Mod Card 5 -->
-                <div class="mod-card">
-                    <div class="mod-card-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
-                        <i class="fas fa-music"></i>
-                    </div>
-                    <div class="mod-card-content">
-                        <h3>Music & Radio Mod</h3>
-                        <p>Add your own tracks and create custom radio stations in-game.</p>
-                        <div class="mod-stats">
-                            <span><i class="fas fa-download"></i> 6.4K</span>
-                            <span><i class="fas fa-star"></i> 4.9/5</span>
-                        </div>
-                        <button class="download-btn">Download</button>
-                    </div>
-                </div>
-
-                <!-- Mod Card 6 -->
-                <div class="mod-card">
-                    <div class="mod-card-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
-                        <i class="fas fa-motorcycle"></i>
-                    </div>
-                    <div class="mod-card-content">
-                        <h3>Bike Customization Pro</h3>
-                        <p>Ultimate motorcycle mod with 1000+ customization options.</p>
-                        <div class="mod-stats">
-                            <span><i class="fas fa-download"></i> 9.1K</span>
-                            <span><i class="fas fa-star"></i> 4.8/5</span>
-                        </div>
-                        <button class="download-btn">Download</button>
-                    </div>
+                    <div class="mod-icon">💨</div>
+                    <h3>Performance Pack</h3>
+                    <p>Lightweight vehicle edits for improved performance tuning</p>
+                    <div class="mod-type">Vehicle Edit</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Tutorial Section -->
+    <section id="tutorial" class="tutorial">
         <div class="container">
-            <h2 class="section-title">About ins4nemodder</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Welcome to the ultimate GTA 5 modding experience. I'm ins4nemodder, a passionate developer dedicated to creating the most innovative and high-quality mods for the GTA community.</p>
-                    <p>With over 8 years of modding experience, I've crafted mods that have been downloaded by hundreds of thousands of players worldwide. My mods are known for their attention to detail, stability, and incredible features.</p>
-                    <div class="stats-grid">
-                        <div class="stat">
-                            <h3>50+</h3>
-                            <p>Total Mods</p>
-                        </div>
-                        <div class="stat">
-                            <h3>500K+</h3>
-                            <p>Total Downloads</p>
-                        </div>
-                        <div class="stat">
-                            <h3>8+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                        <div class="stat">
-                            <h3>4.9★</h3>
-                            <p>Avg Rating</p>
-                        </div>
-                    </div>
+            <h2 class="section-title">How to Add Your Mods</h2>
+            <p class="section-subtitle">Step-by-step guide for adding new mods to this portfolio</p>
+            
+            <div class="tutorial-content">
+                <div class="tutorial-step">
+                    <div class="step-number">1</div>
+                    <h3>Edit index.html</h3>
+                    <p>Open the <code>index.html</code> file in any text editor (Notepad, VS Code, etc.)</p>
+                    <p>Find the section that says <code>&lt;!-- Mod Card X --&gt;</code></p>
                 </div>
-                <div class="about-features">
-                    <div class="feature">
-                        <i class="fas fa-bolt"></i>
-                        <h4>High Performance</h4>
-                        <p>Optimized for smooth gameplay</p>
-                    </div>
-                    <div class="feature">
-                        <i class="fas fa-shield-alt"></i>
-                        <h4>Secure & Safe</h4>
-                        <p>Virus-free & tested</p>
-                    </div>
-                    <div class="feature">
-                        <i class="fas fa-headset"></i>
-                        <h4>24/7 Support</h4>
-                        <p>Always here to help</p>
-                    </div>
-                    <div class="feature">
-                        <i class="fas fa-sync-alt"></i>
-                        <h4>Regular Updates</h4>
-                        <p>Constantly improving</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p>contact@ins4nemodder.com</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-discord"></i>
-                        <h3>Discord</h3>
-                        <p>Join our community server</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-youtube"></i>
-                        <h3>YouTube</h3>
-                        <p>Watch mod showcases</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <h3>GitHub</h3>
-                        <p>View source code</p>
-                    </div>
+                <div class="tutorial-step">
+                    <div class="step-number">2</div>
+                    <h3>Copy a Mod Card</h3>
+                    <p>Copy this entire mod card block:</p>
+                    <pre><code>&lt;div class="mod-card"&gt;
+    &lt;div class="mod-icon"&gt;🚗&lt;/div&gt;
+    &lt;h3&gt;Your Mod Name&lt;/h3&gt;
+    &lt;p&gt;Description of your mod&lt;/p&gt;
+    &lt;div class="mod-type"&gt;Physics Tasks&lt;/div&gt;
+&lt;/div&gt;</code></pre>
                 </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
+
+                <div class="tutorial-step">
+                    <div class="step-number">3</div>
+                    <h3>Customize Your Mod</h3>
+                    <p><strong>Replace the emoji:</strong> Pick any emoji that fits your mod</p>
+                    <p><strong>Change the name:</strong> Use something descriptive like "Custom Handling v2"</p>
+                    <p><strong>Add description:</strong> Keep it short and clear (1-2 sentences)</p>
+                    <p><strong>Set the type:</strong> Choose either "Physics Tasks" or "Vehicle Edit"</p>
+                </div>
+
+                <div class="tutorial-step">
+                    <div class="step-number">4</div>
+                    <h3>Paste Into mods-grid</h3>
+                    <p>Find the <code>&lt;div class="mods-grid"&gt;</code> section</p>
+                    <p>Paste your new mod card before the closing <code>&lt;/div&gt;</code></p>
+                    <p>Example:</p>
+                    <pre><code>&lt;div class="mods-grid"&gt;
+    &lt;!-- existing mod cards --&gt;
+    &lt;!-- YOUR NEW MOD CARD GOES HERE --&gt;
+&lt;/div&gt;</code></pre>
+                </div>
+
+                <div class="tutorial-step">
+                    <div class="step-number">5</div>
+                    <h3>Save & Check</h3>
+                    <p>Save the <code>index.html</code> file</p>
+                    <p>Open it in your browser to preview</p>
+                    <p>Your new mod should appear in the gallery!</p>
+                </div>
+
+                <div class="tutorial-step">
+                    <div class="step-number">6</div>
+                    <h3>Upload to GitHub</h3>
+                    <p>Go to your GitHub repository</p>
+                    <p>Click the <code>index.html</code> file</p>
+                    <p>Click the edit button (pencil icon)</p>
+                    <p>Paste your updated content</p>
+                    <p>Scroll down and click "Commit changes"</p>
+                    <p>Your live site updates in seconds!</p>
+                </div>
+
+                <div class="tutorial-step info">
+                    <h3>💡 Pro Tips</h3>
+                    <ul>
+                        <li><strong>Emoji Ideas:</strong> 🚗 🏎️ ⚙️ 🛞 💨 ⚡ 🔧 🎯</li>
+                        <li><strong>Good Names:</strong> "Custom Handling v1", "Drift Physics v2", "Lightweight Pack"</li>
+                        <li><strong>Type:</strong> "Physics Tasks" = physics.ymt edits, "Vehicle Edit" = vehicle handling changes</li>
+                        <li><strong>Keep Descriptions Short:</strong> 1-2 sentences max</li>
+                        <li><strong>Don't Copy:</strong> Never copy entire HTML - just the mod card div</li>
+                    </ul>
+                </div>
+
+                <div class="tutorial-step warning">
+                    <h3>⚠️ Common Mistakes</h3>
+                    <ul>
+                        <li>Forgetting to close the <code>&lt;/div&gt;</code> tag</li>
+                        <li>Copying more than just the mod card</li>
+                        <li>Removing existing mod cards by accident</li>
+                        <li>Typos in HTML tags (watch brackets and spelling)</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -232,13 +169,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 ins4nemodder. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-discord"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
+            <p>&copy; 2024 ins4nemodder. GTA 5 Physics & Vehicle Mods.</p>
         </div>
     </footer>
 
